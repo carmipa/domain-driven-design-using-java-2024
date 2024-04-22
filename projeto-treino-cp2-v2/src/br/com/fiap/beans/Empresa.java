@@ -10,7 +10,7 @@ public class Empresa {
 
 	public Empresa() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Empresa(int codigo, String cnpj, String razaoSocial) {
