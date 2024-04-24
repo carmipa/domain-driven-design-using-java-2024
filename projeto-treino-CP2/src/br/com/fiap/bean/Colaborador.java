@@ -11,13 +11,13 @@ public class Colaborador {
 	private Endereco endereco;
 
 	// construtor vazio
-	
+
 	public Colaborador() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
-	
-	// construtor cheio
+
+	// construtor cheio (sem atributo de referencia)
 
 	public Colaborador(int registro, String nome, String cargo, double salario) {
 		super();
@@ -26,7 +26,7 @@ public class Colaborador {
 		this.cargo = cargo;
 		this.salario = salario;
 	}
-	
+
 	// setters (entrada) e getters(retornar)
 
 	public int getRegistro() {
