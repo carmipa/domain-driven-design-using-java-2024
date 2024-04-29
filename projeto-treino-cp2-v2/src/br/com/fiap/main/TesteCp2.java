@@ -61,6 +61,9 @@ public class TesteCp2 {
 										  + "\nRazão Social: " + empresa.getRazaoSocial()
 										  + "\n"
 				);
+		
+		JOptionPane.showMessageDialog(null, cliente.toString());
+		JOptionPane.showMessageDialog(null, endereco.toString());
 
 	}
 
