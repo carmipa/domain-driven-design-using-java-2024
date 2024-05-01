@@ -8,9 +8,9 @@ public abstract class Cartao {
 	private int cvv;
 	private int numero;
 	protected double saldo;
-	private double compra;
+	protected double compra;
 
-	// metodo contrutor vazio
+	// metodo contrutor vazi
 
 	public Cartao() {
 		super();
@@ -87,5 +87,7 @@ public abstract class Cartao {
 	}
 
 	public abstract double limite();
+	
+	public abstract String status();
 
 }

@@ -18,4 +18,17 @@ public class Credito extends Cartao {
 		return saldo + (30 * saldo / 100);
 	}
 
+	@Override
+	public String status() {
+		
+		String aviso = null;
+		if (compra > limite()) {
+			aviso = "LÍMITE EXCEDIDO";
+		}else {
+			aviso = "COMPRA APROVADA";
+		}
+		
+		return aviso;
+	}
+
 }
