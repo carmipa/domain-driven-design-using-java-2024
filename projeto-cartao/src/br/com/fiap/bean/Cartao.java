@@ -7,16 +7,16 @@ public abstract class Cartao {
 	private String validade;
 	private int cvv;
 	private int numero;
-	private double saldo;
+	protected double saldo;
 	private double compra;
-	
+
 	// metodo contrutor vazio
-	
+
 	public Cartao() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	// metodo construtor cheio
 
 	public Cartao(String banco, String bandeira, String validade, int cvv, int numero, double saldo, double compra) {
@@ -85,5 +85,7 @@ public abstract class Cartao {
 	public void setCompra(double compra) {
 		this.compra = compra;
 	}
+
+	public abstract double limite();
 
 }
