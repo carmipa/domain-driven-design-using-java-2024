@@ -60,5 +60,7 @@ public abstract class Veiculo {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
+	
+	public abstract String identificar();
 
 }

@@ -27,4 +27,10 @@ public class Moto extends Veiculo {
 				+ ", getModelo()=" + getModelo() + ", getAno()=" + getAno() + ", getValor()=" + getValor() + "]";
 	}
 
+	@Override
+	public String identificar() {
+		// TODO Auto-generated method stub
+		return 	"INFORMAÇÕES DA MOTO:";
+	}
+
 }
