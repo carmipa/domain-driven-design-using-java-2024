@@ -1,7 +1,7 @@
 package br.com.fiap.beans;
 
-public class Carro  extends Veiculo{
-	
+public class Carro extends Veiculo {
+
 	private String volante;
 
 	public Carro() {
@@ -26,7 +26,5 @@ public class Carro  extends Veiculo{
 		return "Carro [getVolante()=" + getVolante() + ", getPlaca()=" + getPlaca() + ", getMarca()=" + getMarca()
 				+ ", getModelo()=" + getModelo() + ", getAno()=" + getAno() + ", getValor()=" + getValor() + "]";
 	}
-	
-	
 
 }
