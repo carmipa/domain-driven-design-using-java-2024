@@ -1,0 +1,126 @@
+-- Gerado por Oracle SQL Developer Data Modeler 3.1.1.703
+--   em:        2013-05-04 19:20:13 BRT
+--   site:      Oracle Database 11g
+--   tipo:      Oracle Database 11g
+
+
+
+DROP TABLE Pedido CASCADE CONSTRAINTS 
+;
+DROP TABLE cliente CASCADE CONSTRAINTS 
+;
+DROP TABLE nota_fiscal CASCADE CONSTRAINTS 
+;
+CREATE TABLE Pedido 
+    ( 
+     cod_pedido NUMBER  NOT NULL , 
+     tipo_pedido VARCHAR2 (30)  NOT NULL , 
+     quantidade_produto NUMBER  NOT NULL , 
+     valorUnitario_pedido NUMBER  NOT NULL , 
+     cod_cliente NUMBER  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE Pedido 
+    ADD CONSTRAINT "Pedido PK" PRIMARY KEY ( cod_pedido, cod_cliente ) ;
+
+
+
+CREATE TABLE cliente 
+    ( 
+     cod_cliente NUMBER  NOT NULL , 
+     nome_cliente VARCHAR2 (60)  NOT NULL , 
+     email_cliente VARCHAR2 (60)  NOT NULL , 
+     telefone_cliente VARCHAR2 (15)  NOT NULL , 
+     cpf_cnpj_cliente VARCHAR2 (15)  NOT NULL , 
+     dataCad_cliente DATE  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE cliente 
+    ADD CONSTRAINT "cliente PK" PRIMARY KEY ( cod_cliente ) ;
+
+
+
+CREATE TABLE nota_fiscal 
+    ( 
+     cod_notaFiscal NUMBER  NOT NULL , 
+     dataEmissao_notaFiscal DATE  NOT NULL , 
+     valorBruto_notaFiscal NUMBER  NOT NULL , 
+     impostos_notaFiscal NUMBER  NOT NULL , 
+     cod_pedido NUMBER  NOT NULL , 
+     cod_cliente NUMBER  NOT NULL , 
+    ) 
+;
+
+
+
+ALTER TABLE nota_fiscal 
+    ADD CONSTRAINT "nota_fiscal PK" PRIMARY KEY ( cod_notaFiscal, cod_pedido, cod_cliente ) ;
+
+
+
+
+ALTER TABLE Pedido 
+    ADD CONSTRAINT Relation_1 FOREIGN KEY 
+    ( 
+     cod_cliente
+    ) 
+    REFERENCES cliente 
+    ( 
+     cod_cliente
+    ) 
+;
+
+ALTER TABLE nota_fiscal 
+    ADD CONSTRAINT Relation_3 FOREIGN KEY 
+    ( 
+     cod_pedido,
+     cod_cliente
+    ) 
+    REFERENCES Pedido 
+    ( 
+     cod_pedido,
+     cod_cliente
+    ) 
+;
+
+
+
+-- Relatório do Resumo do Oracle SQL Developer Data Modeler: 
+-- 
+-- CREATE TABLE                             3
+-- CREATE INDEX                             0
+-- ALTER TABLE                              6
+-- CREATE VIEW                              0
+-- CREATE PACKAGE                           0
+-- CREATE PACKAGE BODY                      0
+-- CREATE PROCEDURE                         0
+-- CREATE FUNCTION                          0
+-- CREATE TRIGGER                           0
+-- ALTER TRIGGER                            0
+-- CREATE STRUCTURED TYPE                   0
+-- CREATE COLLECTION TYPE                   0
+-- CREATE CLUSTER                           0
+-- CREATE CONTEXT                           0
+-- CREATE DATABASE                          0
+-- CREATE DIMENSION                         0
+-- CREATE DIRECTORY                         0
+-- CREATE DISK GROUP                        0
+-- CREATE ROLE                              0
+-- CREATE ROLLBACK SEGMENT                  0
+-- CREATE SEQUENCE                          0
+-- CREATE MATERIALIZED VIEW                 0
+-- CREATE SYNONYM                           0
+-- CREATE TABLESPACE                        0
+-- CREATE USER                              0
+-- 
+-- DROP TABLESPACE                          0
+-- DROP DATABASE                            0
+-- 
+-- ERRORS                                   0
+-- WARNINGS                                 0
