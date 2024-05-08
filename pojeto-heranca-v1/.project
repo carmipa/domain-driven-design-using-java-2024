@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>projeto-heranca-v1</name>
+	<name>pojeto-heranca-v1</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,11 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< HEAD
-			<id>1715127826653</id>
-=======
-			<id>1715128990436</id>
->>>>>>> b54a687c06033eea30b765efe091d741c9bf489b
+			<id>1715127370338</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
