@@ -1,5 +1,8 @@
 package br.com.fiap.beans;
 
+import java.beans.JavaBean;
+
+@JavaBean
 public abstract class Veiculo {
 
 	private String placa;

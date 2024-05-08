@@ -2,8 +2,10 @@ package br.com.fiap.main;
 
 import javax.swing.JOptionPane;
 
-import br.com.fiap.beans.Carro;
-import br.com.fiap.beans.Moto;
+// o * resolve o problema para todos os objetos e adiciona todas as classes beeans
+
+import br.com.fiap.beans.*;
+
 
 public class Teste {
 	
@@ -52,12 +54,20 @@ public class Teste {
 			JOptionPane.showMessageDialog(null, "DADOS DA MOTO");
 			
 			Moto moto = new Moto(
-					JOptionPane.showInputDialog("Placa:"),
-					JOptionPane.showInputDialog("Marca:"),
-					JOptionPane.showInputDialog("Modelo:"),
-					Integer.parseInt(JOptionPane.showInputDialog("Ano:")),
-					Double.parseDouble(JOptionPane.showInputDialog("Valor:")),
-					JOptionPane.showInputDialog("Guidão:")
+					texto("Placa da Moto:"),
+					texto("Marca da Moto:"),
+					texto("Modelo da Moto:"),
+					inteiro("Ano de fabricação:"),
+					real("Valor do Moto:"),
+					texto("Tipo de guidão do Moto:")
+					
+			/*
+			 * JOptionPane.showInputDialog("Placa:"), JOptionPane.showInputDialog("Marca:"),
+			 * JOptionPane.showInputDialog("Modelo:"),
+			 * Integer.parseInt(JOptionPane.showInputDialog("Ano:")),
+			 * Double.parseDouble(JOptionPane.showInputDialog("Valor:")),
+			 * JOptionPane.showInputDialog("Guidão:")
+			 */
 					);
 			
 			JOptionPane.showMessageDialog(null, moto.identificar()+ "\n" + moto.toString());

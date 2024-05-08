@@ -1,5 +1,8 @@
 package br.com.fiap.beans;
 
+import java.beans.JavaBean;
+
+@JavaBean
 public class Moto extends Veiculo {
 
 	private String guidao;
