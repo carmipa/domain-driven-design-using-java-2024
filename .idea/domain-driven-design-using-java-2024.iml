@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web16">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web15">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.3/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.3/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web18">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web17">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFBlankWithLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFBlankWithLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2/JSFBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2/JSFBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web10">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.2/JSFBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.2/JSFBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web12">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.3/JSFBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.3/JSFBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.2/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.2/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web11">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web14">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web13">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFBlankWithLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFBlankWithLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFBlankWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFBlankWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFKickStartWithoutLibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFKickStartWithoutLibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/2-SEMESTRE/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
