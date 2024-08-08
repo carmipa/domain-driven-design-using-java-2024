@@ -1,0 +1,24 @@
+package br.com.fiap.vetores.exercicio;
+
+import java.awt.JobAttributes;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		int[] vetor = new int[10];
+		
+		for(int i = 0; i < vetor.length; i++) {
+			
+			if (vetor.length % 2 == 0) {
+				JOptionPane.
+				
+			}
+			
+		}
+
+	}
+
+}

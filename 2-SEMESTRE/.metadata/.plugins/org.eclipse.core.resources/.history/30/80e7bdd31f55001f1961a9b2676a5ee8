@@ -1,0 +1,14 @@
+package br.com.fiap.vetores;
+
+public class ExemploVetor {
+
+	public static void main(String[] args) {
+		
+		int[] vetor1 = new int[10];
+		int[] vetor2 = {23, 2024, 54, 32};
+		
+		System.out.println(vetor2.length);
+
+	}
+
+}

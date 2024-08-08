@@ -1,0 +1,23 @@
+package br.com.fiap.vetores.exercicio;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		int[] vetor = new int[10];
+		
+		for(int i = 0; i < vetor.length; i++) {
+			
+			if (vetor.length % 2 == 0) {
+				
+				System.out.println("Os valores do vetor são pares: " + vetor.length);
+				
+			}else {
+				System.out.println("Os valore do vetor são inpares: " + vetor.length);
+			}
+			
+		}
+
+	}
+
+}
